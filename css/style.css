@@ -148,6 +148,35 @@ a:active {
     color: hsl(var(--primary));
 }
 
+.theme-toggle {
+    background: hsl(var(--card));
+    border: 1px solid hsl(var(--border));
+    border-radius: calc(var(--radius));
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+    color: hsl(var(--foreground));
+    font-size: 1.2rem;
+}
+
+.theme-toggle:hover {
+    background: hsl(var(--accent));
+    border-color: hsl(var(--primary));
+}
+
+.theme-icon {
+    display: inline-block;
+    transition: transform 0.3s;
+    font-size: 1.2rem;
+}
+
+.theme-toggle:hover .theme-icon {
+    transform: rotate(15deg) scale(1.1);
+}
+
 /* Hero Section */
 .hero {
     padding: 4rem 0;

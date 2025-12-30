@@ -1,0 +1,19 @@
+{
+  "name": "moods-start-page",
+  "version": "1.0.0",
+  "description": "Landing page for MOODS mobile app",
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "echo 'Static site - no build needed'",
+    "deploy": "echo 'Deploy to Vercel/Netlify/GitHub Pages'"
+  },
+  "keywords": [
+    "moods",
+    "mental-health",
+    "mood-tracker",
+    "landing-page"
+  ],
+  "author": "MOODS Team",
+  "license": "MIT"
+}
+

@@ -22,40 +22,20 @@ const updateThemeColor = (theme) => {
     }
 };
 
-// Initialize
-updateThemeIcon(savedTheme);
-updateThemeColor(savedTheme);
-
 // Update logos based on theme
 const updateLogos = (theme) => {
     const navbarLogo = document.getElementById('navbar-logo');
-    const heroLogo = document.getElementById('hero-logo');
     
     if (navbarLogo) {
         navbarLogo.src = theme === 'dark' 
             ? 'assets/logo-navbar.png' 
             : 'assets/logo-light.png';
     }
-    
-    // Hero logo can stay the same (banner works on both)
-    // Or we can switch if needed
 };
 
-// Call on theme change
-const originalToggle = themeToggle.addEventListener;
-if (themeToggle) {
-    themeToggle.addEventListener('click', () => {
-        const currentTheme = html.getAttribute('data-theme');
-        const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-        
-        html.setAttribute('data-theme', newTheme);
-        localStorage.setItem('theme', newTheme);
-        updateThemeIcon(newTheme);
-        updateThemeColor(newTheme);
-        updateLogos(newTheme);
-    });
-}
-
+// Initialize
+updateThemeIcon(savedTheme);
+updateThemeColor(savedTheme);
 updateLogos(savedTheme);
 
 // Toggle theme
@@ -68,6 +48,7 @@ if (themeToggle) {
         localStorage.setItem('theme', newTheme);
         updateThemeIcon(newTheme);
         updateThemeColor(newTheme);
+        updateLogos(newTheme);
     });
 }
 

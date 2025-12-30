@@ -22,14 +22,12 @@ const updateThemeColor = (theme) => {
     }
 };
 
-// Update logos based on theme
+// Update logos based on theme (using main logo for both themes)
 const updateLogos = (theme) => {
+    // Main logo works for both themes, no need to switch
     const navbarLogo = document.getElementById('navbar-logo');
-    
-    if (navbarLogo) {
-        navbarLogo.src = theme === 'dark' 
-            ? 'assets/logo-navbar.png' 
-            : 'assets/logo-light.png';
+    if (navbarLogo && !navbarLogo.src.includes('logo-navbar-circular')) {
+        navbarLogo.src = 'assets/logo-navbar-circular.png';
     }
 };
 

@@ -201,7 +201,8 @@ a:active {
 
 /* Hero Section */
 .hero {
-    padding: 4rem 0;
+    padding: 6rem 0 4rem 0;
+    margin-top: 70px;
     background: linear-gradient(135deg, hsl(var(--card)) 0%, hsl(var(--background)) 100%);
 }
 
@@ -582,6 +583,11 @@ a:active {
 
 /* Responsive */
 @media (max-width: 768px) {
+    .hero {
+        padding: 5rem 0 3rem 0;
+        margin-top: 70px;
+    }
+
     .hero-content {
         grid-template-columns: 1fr;
         text-align: center;
@@ -593,6 +599,11 @@ a:active {
 
     .hero-subtitle {
         font-size: 1.5rem;
+    }
+
+    .navbar .container {
+        height: 60px;
+        padding: 0 1rem;
     }
 
     .nav-links {

@@ -2,10 +2,10 @@
   "name": "moods-start-page",
   "version": "1.0.0",
   "description": "Landing page for MOODS mobile app",
+  "private": true,
   "scripts": {
     "dev": "npx serve .",
-    "build": "echo 'Static site - no build needed'",
-    "deploy": "echo 'Deploy to Vercel/Netlify/GitHub Pages'"
+    "build": "echo 'Static site - no build needed'"
   },
   "keywords": [
     "moods",

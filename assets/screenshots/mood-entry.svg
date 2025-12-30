@@ -1,0 +1,49 @@
+<svg width="375" height="812" viewBox="0 0 375 812" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background (Dark theme) -->
+  <rect width="375" height="812" fill="hsl(200, 30%, 18%)"/>
+  
+  <!-- Status bar -->
+  <rect width="375" height="44" fill="hsl(200, 30%, 18%)"/>
+  <text x="20" y="30" font-family="Heebo" font-size="14" fill="hsl(180, 10%, 95%)" font-weight="600">9:41</text>
+  
+  <!-- Header -->
+  <text x="187.5" y="90" font-family="Heebo" font-size="24" font-weight="700" fill="hsl(180, 10%, 95%)" text-anchor="middle">דיווח יומי</text>
+  
+  <!-- Mood Slider -->
+  <rect x="20" y="120" width="335" height="140" rx="12" fill="hsl(200, 25%, 22%)" stroke="hsl(190, 25%, 32%)" stroke-width="1"/>
+  <text x="30" y="150" font-family="Heebo" font-size="18" font-weight="600" fill="hsl(180, 10%, 95%)">מצב רוח</text>
+  <rect x="30" y="170" width="315" height="8" rx="4" fill="hsl(190, 25%, 32%)"/>
+  <rect x="30" y="170" width="220" height="8" rx="4" fill="hsl(175, 60%, 55%)"/>
+  <circle cx="250" cy="174" r="16" fill="hsl(175, 60%, 55%)"/>
+  <text x="30" y="200" font-family="Heebo" font-size="14" fill="hsl(180, 10%, 65%)">7 / 10</text>
+  <text x="325" y="200" font-family="Heebo" font-size="14" fill="hsl(180, 10%, 65%)">😊</text>
+  
+  <!-- Energy Slider -->
+  <rect x="20" y="280" width="335" height="140" rx="12" fill="hsl(200, 25%, 22%)" stroke="hsl(190, 25%, 32%)" stroke-width="1"/>
+  <text x="30" y="310" font-family="Heebo" font-size="18" font-weight="600" fill="hsl(180, 10%, 95%)">אנרגיה</text>
+  <rect x="30" y="330" width="315" height="8" rx="4" fill="hsl(190, 25%, 32%)"/>
+  <rect x="30" y="330" width="190" height="8" rx="4" fill="hsl(175, 60%, 55%)"/>
+  <circle cx="220" cy="334" r="16" fill="hsl(175, 60%, 55%)"/>
+  <text x="30" y="360" font-family="Heebo" font-size="14" fill="hsl(180, 10%, 65%)">6 / 10</text>
+  <text x="325" y="360" font-family="Heebo" font-size="14" fill="hsl(180, 10%, 65%)">⚡</text>
+  
+  <!-- Stress Slider -->
+  <rect x="20" y="440" width="335" height="140" rx="12" fill="hsl(200, 25%, 22%)" stroke="hsl(190, 25%, 32%)" stroke-width="1"/>
+  <text x="30" y="470" font-family="Heebo" font-size="18" font-weight="600" fill="hsl(180, 10%, 95%)">לחץ</text>
+  <rect x="30" y="490" width="315" height="8" rx="4" fill="hsl(190, 25%, 32%)"/>
+  <rect x="30" y="490" width="95" height="8" rx="4" fill="hsl(175, 60%, 55%)"/>
+  <circle cx="125" cy="494" r="16" fill="hsl(175, 60%, 55%)"/>
+  <text x="30" y="520" font-family="Heebo" font-size="14" fill="hsl(180, 10%, 65%)">3 / 10</text>
+  <text x="325" y="520" font-family="Heebo" font-size="14" fill="hsl(180, 10%, 65%)">😌</text>
+  
+  <!-- Notes Section -->
+  <rect x="20" y="600" width="335" height="120" rx="12" fill="hsl(200, 25%, 22%)" stroke="hsl(190, 25%, 32%)" stroke-width="1"/>
+  <text x="30" y="630" font-family="Heebo" font-size="18" font-weight="600" fill="hsl(180, 10%, 95%)">הערות (אופציונלי)</text>
+  <rect x="30" y="645" width="315" height="60" rx="8" fill="hsl(200, 30%, 18%)" stroke="hsl(190, 25%, 32%)" stroke-width="1"/>
+  <text x="40" y="670" font-family="Heebo" font-size="14" fill="hsl(180, 10%, 65%)">כתוב כאן...</text>
+  
+  <!-- Save Button -->
+  <rect x="20" y="740" width="335" height="56" rx="28" fill="hsl(175, 60%, 55%)"/>
+  <text x="187.5" y="775" font-family="Heebo" font-size="18" font-weight="600" fill="hsl(180, 10%, 98%)" text-anchor="middle">שמור דיווח</text>
+</svg>
+

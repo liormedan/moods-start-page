@@ -1,0 +1,66 @@
+<svg width="375" height="812" viewBox="0 0 375 812" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background (Dark theme) -->
+  <rect width="375" height="812" fill="hsl(200, 30%, 18%)"/>
+  
+  <!-- Status bar -->
+  <rect width="375" height="44" fill="hsl(200, 30%, 18%)"/>
+  <text x="20" y="30" font-family="Heebo" font-size="14" fill="hsl(180, 10%, 95%)" font-weight="600">9:41</text>
+  
+  <!-- Header -->
+  <text x="187.5" y="90" font-family="Heebo" font-size="24" font-weight="700" fill="hsl(180, 10%, 95%)" text-anchor="middle">ניתוחים</text>
+  
+  <!-- Period Selector -->
+  <rect x="20" y="110" width="335" height="50" rx="12" fill="hsl(200, 25%, 22%)" stroke="hsl(190, 25%, 32%)" stroke-width="1"/>
+  <rect x="30" y="120" width="70" height="30" rx="15" fill="hsl(175, 60%, 55%)"/>
+  <text x="65" y="140" font-family="Heebo" font-size="14" font-weight="600" fill="hsl(180, 10%, 98%)" text-anchor="middle">7 ימים</text>
+  <text x="130" y="140" font-family="Heebo" font-size="14" fill="hsl(180, 10%, 65%)" text-anchor="middle">14 ימים</text>
+  <text x="195" y="140" font-family="Heebo" font-size="14" fill="hsl(180, 10%, 65%)" text-anchor="middle">30 ימים</text>
+  <text x="260" y="140" font-family="Heebo" font-size="14" fill="hsl(180, 10%, 65%)" text-anchor="middle">הכל</text>
+  
+  <!-- Mood Chart -->
+  <rect x="20" y="180" width="335" height="200" rx="12" fill="hsl(200, 25%, 22%)" stroke="hsl(190, 25%, 32%)" stroke-width="1"/>
+  <text x="30" y="210" font-family="Heebo" font-size="18" font-weight="600" fill="hsl(180, 10%, 95%)">מצב רוח</text>
+  <!-- Chart line (simplified) -->
+  <polyline points="50,350 100,320 150,300 200,310 250,290 300,280 330,270" fill="none" stroke="hsl(175, 60%, 55%)" stroke-width="3"/>
+  <circle cx="50" cy="350" r="4" fill="hsl(175, 60%, 55%)"/>
+  <circle cx="100" cy="320" r="4" fill="hsl(175, 60%, 55%)"/>
+  <circle cx="150" cy="300" r="4" fill="hsl(175, 60%, 55%)"/>
+  <circle cx="200" cy="310" r="4" fill="hsl(175, 60%, 55%)"/>
+  <circle cx="250" cy="290" r="4" fill="hsl(175, 60%, 55%)"/>
+  <circle cx="300" cy="280" r="4" fill="hsl(175, 60%, 55%)"/>
+  <circle cx="330" cy="270" r="4" fill="hsl(175, 60%, 55%)"/>
+  
+  <!-- Energy Chart -->
+  <rect x="20" y="400" width="335" height="200" rx="12" fill="hsl(200, 25%, 22%)" stroke="hsl(190, 25%, 32%)" stroke-width="1"/>
+  <text x="30" y="430" font-family="Heebo" font-size="18" font-weight="600" fill="hsl(180, 10%, 95%)">אנרגיה</text>
+  <!-- Chart line -->
+  <polyline points="50,570 100,550 150,540 200,545 250,530 300,520 330,510" fill="none" stroke="hsl(175, 60%, 55%)" stroke-width="3"/>
+  <circle cx="50" cy="570" r="4" fill="hsl(175, 60%, 55%)"/>
+  <circle cx="100" cy="550" r="4" fill="hsl(175, 60%, 55%)"/>
+  <circle cx="150" cy="540" r="4" fill="hsl(175, 60%, 55%)"/>
+  <circle cx="200" cy="545" r="4" fill="hsl(175, 60%, 55%)"/>
+  <circle cx="250" cy="530" r="4" fill="hsl(175, 60%, 55%)"/>
+  <circle cx="300" cy="520" r="4" fill="hsl(175, 60%, 55%)"/>
+  <circle cx="330" cy="510" r="4" fill="hsl(175, 60%, 55%)"/>
+  
+  <!-- Summary Cards -->
+  <rect x="20" y="620" width="105" height="80" rx="12" fill="hsl(200, 25%, 22%)" stroke="hsl(190, 25%, 32%)" stroke-width="1"/>
+  <text x="72.5" y="650" font-family="Heebo" font-size="24" font-weight="700" fill="hsl(175, 60%, 55%)" text-anchor="middle">7.5</text>
+  <text x="72.5" y="675" font-family="Heebo" font-size="12" fill="hsl(180, 10%, 65%)" text-anchor="middle">ממוצע מצב רוח</text>
+  
+  <rect x="135" y="620" width="105" height="80" rx="12" fill="hsl(200, 25%, 22%)" stroke="hsl(190, 25%, 32%)" stroke-width="1"/>
+  <text x="187.5" y="650" font-family="Heebo" font-size="24" font-weight="700" fill="hsl(175, 60%, 55%)" text-anchor="middle">6.8</text>
+  <text x="187.5" y="675" font-family="Heebo" font-size="12" fill="hsl(180, 10%, 65%)" text-anchor="middle">ממוצע אנרגיה</text>
+  
+  <rect x="250" y="620" width="105" height="80" rx="12" fill="hsl(200, 25%, 22%)" stroke="hsl(190, 25%, 32%)" stroke-width="1"/>
+  <text x="302.5" y="650" font-family="Heebo" font-size="24" font-weight="700" fill="hsl(175, 60%, 55%)" text-anchor="middle">3.2</text>
+  <text x="302.5" y="675" font-family="Heebo" font-size="12" fill="hsl(180, 10%, 65%)" text-anchor="middle">ממוצע לחץ</text>
+  
+  <!-- Bottom Navigation -->
+  <rect x="0" y="756" width="375" height="56" fill="hsl(200, 25%, 22%)" stroke="hsl(190, 25%, 32%)" stroke-width="1"/>
+  <text x="93.75" y="790" font-family="Heebo" font-size="12" fill="hsl(180, 10%, 65%)" text-anchor="middle">🏠</text>
+  <text x="187.5" y="790" font-family="Heebo" font-size="12" fill="hsl(175, 60%, 55%)" text-anchor="middle">📊</text>
+  <text x="281.25" y="790" font-family="Heebo" font-size="12" fill="hsl(180, 10%, 65%)" text-anchor="middle">📝</text>
+  <text x="375" y="790" font-family="Heebo" font-size="12" fill="hsl(180, 10%, 65%)" text-anchor="middle">⚙️</text>
+</svg>
+

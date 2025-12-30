@@ -1,0 +1,50 @@
+<svg width="375" height="812" viewBox="0 0 375 812" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background (Dark theme) -->
+  <rect width="375" height="812" fill="hsl(200, 30%, 18%)"/>
+  
+  <!-- Status bar -->
+  <rect width="375" height="44" fill="hsl(200, 30%, 18%)"/>
+  <text x="20" y="30" font-family="Heebo" font-size="14" fill="hsl(180, 10%, 95%)" font-weight="600">9:41</text>
+  <text x="335" y="30" font-family="Heebo" font-size="14" fill="hsl(180, 10%, 95%)">100%</text>
+  
+  <!-- Header -->
+  <text x="20" y="90" font-family="Heebo" font-size="24" font-weight="700" fill="hsl(180, 10%, 95%)">שלום, משתמש</text>
+  <text x="20" y="115" font-family="Heebo" font-size="16" fill="hsl(180, 10%, 65%)">איך אתה מרגיש היום?</text>
+  
+  <!-- Emotional Weather Card -->
+  <rect x="20" y="140" width="335" height="180" rx="12" fill="hsl(200, 25%, 22%)" stroke="hsl(175, 60%, 55%)" stroke-width="4" stroke-dasharray="0"/>
+  <circle cx="187.5" cy="220" r="40" fill="hsl(175, 60%, 55%)" opacity="0.2"/>
+  <text x="187.5" y="225" font-family="Heebo" font-size="48" text-anchor="middle">☀️</text>
+  <text x="187.5" y="260" font-family="Heebo" font-size="20" font-weight="600" fill="hsl(180, 10%, 95%)" text-anchor="middle">שמש בהיר</text>
+  <text x="187.5" y="285" font-family="Heebo" font-size="14" fill="hsl(180, 10%, 65%)" text-anchor="middle">מצב רוח מצוין היום!</text>
+  
+  <!-- Stats Cards -->
+  <rect x="20" y="340" width="160" height="100" rx="12" fill="hsl(200, 25%, 22%)" stroke="hsl(190, 25%, 32%)" stroke-width="1"/>
+  <text x="100" y="375" font-family="Heebo" font-size="32" font-weight="700" fill="hsl(175, 60%, 55%)" text-anchor="middle">12</text>
+  <text x="100" y="400" font-family="Heebo" font-size="14" fill="hsl(180, 10%, 65%)" text-anchor="middle">רצף ימים</text>
+  <text x="100" y="420" font-family="Heebo" font-size="12" fill="hsl(180, 10%, 65%)" text-anchor="middle">🔥</text>
+  
+  <rect x="195" y="340" width="160" height="100" rx="12" fill="hsl(200, 25%, 22%)" stroke="hsl(190, 25%, 32%)" stroke-width="1"/>
+  <text x="275" y="375" font-family="Heebo" font-size="32" font-weight="700" fill="hsl(175, 60%, 55%)" text-anchor="middle">45</text>
+  <text x="275" y="400" font-family="Heebo" font-size="14" fill="hsl(180, 10%, 65%)" text-anchor="middle">סה״כ רשומות</text>
+  <text x="275" y="420" font-family="Heebo" font-size="12" fill="hsl(180, 10%, 65%)" text-anchor="middle">📊</text>
+  
+  <!-- Average Stats -->
+  <rect x="20" y="460" width="335" height="120" rx="12" fill="hsl(200, 25%, 22%)" stroke="hsl(190, 25%, 32%)" stroke-width="1"/>
+  <text x="30" y="490" font-family="Heebo" font-size="16" font-weight="600" fill="hsl(180, 10%, 95%)">ממוצעים</text>
+  <text x="30" y="520" font-family="Heebo" font-size="14" fill="hsl(180, 10%, 65%)">מצב רוח: 7.5</text>
+  <text x="30" y="545" font-family="Heebo" font-size="14" fill="hsl(180, 10%, 65%)">אנרגיה: 6.8</text>
+  <text x="30" y="570" font-family="Heebo" font-size="14" fill="hsl(180, 10%, 65%)">לחץ: 3.2</text>
+  
+  <!-- Report Button -->
+  <rect x="20" y="600" width="335" height="56" rx="28" fill="hsl(175, 60%, 55%)"/>
+  <text x="187.5" y="635" font-family="Heebo" font-size="18" font-weight="600" fill="hsl(180, 10%, 98%)" text-anchor="middle">דווח עכשיו</text>
+  
+  <!-- Bottom Navigation -->
+  <rect x="0" y="756" width="375" height="56" fill="hsl(200, 25%, 22%)" stroke="hsl(190, 25%, 32%)" stroke-width="1"/>
+  <text x="93.75" y="790" font-family="Heebo" font-size="12" fill="hsl(175, 60%, 55%)" text-anchor="middle">🏠</text>
+  <text x="187.5" y="790" font-family="Heebo" font-size="12" fill="hsl(180, 10%, 65%)" text-anchor="middle">📊</text>
+  <text x="281.25" y="790" font-family="Heebo" font-size="12" fill="hsl(180, 10%, 65%)" text-anchor="middle">📝</text>
+  <text x="375" y="790" font-family="Heebo" font-size="12" fill="hsl(180, 10%, 65%)" text-anchor="middle">⚙️</text>
+</svg>
+

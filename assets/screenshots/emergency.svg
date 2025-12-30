@@ -1,0 +1,61 @@
+<svg width="375" height="812" viewBox="0 0 375 812" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background (Dark theme) -->
+  <rect width="375" height="812" fill="hsl(200, 30%, 18%)"/>
+  
+  <!-- Status bar -->
+  <rect width="375" height="44" fill="hsl(200, 30%, 18%)"/>
+  <text x="20" y="30" font-family="Heebo" font-size="14" fill="hsl(180, 10%, 95%)" font-weight="600">9:41</text>
+  
+  <!-- Header -->
+  <text x="187.5" y="90" font-family="Heebo" font-size="24" font-weight="700" fill="hsl(180, 10%, 95%)" text-anchor="middle">משאבי חירום</text>
+  
+  <!-- Crisis Resources -->
+  <rect x="20" y="110" width="335" height="70" rx="12" fill="hsl(0, 72%, 50%)" opacity="0.9"/>
+  <text x="187.5" y="145" font-family="Heebo" font-size="20" font-weight="700" fill="hsl(0, 0%, 100%)" text-anchor="middle">1201 - קו חירום נפשי</text>
+  <text x="187.5" y="165" font-family="Heebo" font-size="14" fill="hsl(0, 0%, 100%)" text-anchor="middle">24/7 • חינם • אנונימי</text>
+  
+  <rect x="20" y="190" width="160" height="100" rx="12" fill="hsl(200, 25%, 22%)" stroke="hsl(190, 25%, 32%)" stroke-width="1"/>
+  <text x="100" y="230" font-family="Heebo" font-size="18" font-weight="600" fill="hsl(180, 10%, 95%)" text-anchor="middle">ער״ן</text>
+  <text x="100" y="255" font-family="Heebo" font-size="14" fill="hsl(180, 10%, 65%)" text-anchor="middle">1201</text>
+  <text x="100" y="275" font-family="Heebo" font-size="12" fill="hsl(175, 60%, 55%)" text-anchor="middle">התקשר</text>
+  
+  <rect x="195" y="190" width="160" height="100" rx="12" fill="hsl(200, 25%, 22%)" stroke="hsl(190, 25%, 32%)" stroke-width="1"/>
+  <text x="275" y="230" font-family="Heebo" font-size="18" font-weight="600" fill="hsl(180, 10%, 95%)" text-anchor="middle">נט״ל</text>
+  <text x="275" y="255" font-family="Heebo" font-size="14" fill="hsl(180, 10%, 65%)" text-anchor="middle">1-800-363-363</text>
+  <text x="275" y="275" font-family="Heebo" font-size="12" fill="hsl(175, 60%, 55%)" text-anchor="middle">התקשר</text>
+  
+  <rect x="20" y="300" width="160" height="100" rx="12" fill="hsl(200, 25%, 22%)" stroke="hsl(190, 25%, 32%)" stroke-width="1"/>
+  <text x="100" y="340" font-family="Heebo" font-size="18" font-weight="600" fill="hsl(180, 10%, 95%)" text-anchor="middle">סה״ר</text>
+  <text x="100" y="365" font-family="Heebo" font-size="14" fill="hsl(180, 10%, 65%)" text-anchor="middle">1-800-24-1201</text>
+  <text x="100" y="385" font-family="Heebo" font-size="12" fill="hsl(175, 60%, 55%)" text-anchor="middle">התקשר</text>
+  
+  <rect x="195" y="300" width="160" height="100" rx="12" fill="hsl(200, 25%, 22%)" stroke="hsl(190, 25%, 32%)" stroke-width="1"/>
+  <text x="275" y="340" font-family="Heebo" font-size="18" font-weight="600" fill="hsl(180, 10%, 95%)" text-anchor="middle">ERAN</text>
+  <text x="275" y="365" font-family="Heebo" font-size="14" fill="hsl(180, 10%, 65%)" text-anchor="middle">1201</text>
+  <text x="275" y="385" font-family="Heebo" font-size="12" fill="hsl(175, 60%, 55%)" text-anchor="middle">התקשר</text>
+  
+  <!-- Emergency Contacts Section -->
+  <text x="20" y="440" font-family="Heebo" font-size="20" font-weight="600" fill="hsl(180, 10%, 95%)">אנשי קשר</text>
+  
+  <rect x="20" y="460" width="335" height="80" rx="12" fill="hsl(200, 25%, 22%)" stroke="hsl(190, 25%, 32%)" stroke-width="1"/>
+  <circle cx="50" cy="500" r="20" fill="hsl(175, 60%, 55%)" opacity="0.3"/>
+  <text x="50" y="505" font-family="Heebo" font-size="20" text-anchor="middle">👤</text>
+  <text x="80" y="495" font-family="Heebo" font-size="16" font-weight="600" fill="hsl(180, 10%, 95%)">ד״ר יוסי כהן</text>
+  <text x="80" y="515" font-family="Heebo" font-size="14" fill="hsl(180, 10%, 65%)">מטפל אישי</text>
+  <text x="80" y="530" font-family="Heebo" font-size="12" fill="hsl(175, 60%, 55%)">050-1234567</text>
+  
+  <rect x="20" y="550" width="335" height="80" rx="12" fill="hsl(200, 25%, 22%)" stroke="hsl(190, 25%, 32%)" stroke-width="1"/>
+  <circle cx="50" cy="590" r="20" fill="hsl(175, 60%, 55%)" opacity="0.3"/>
+  <text x="50" y="595" font-family="Heebo" font-size="20" text-anchor="middle">👤</text>
+  <text x="80" y="585" font-family="Heebo" font-size="16" font-weight="600" fill="hsl(180, 10%, 95%)">שרה לוי</text>
+  <text x="80" y="605" font-family="Heebo" font-size="14" fill="hsl(180, 10%, 65%)">חברה קרובה</text>
+  <text x="80" y="620" font-family="Heebo" font-size="12" fill="hsl(175, 60%, 55%)">052-9876543</text>
+  
+  <!-- Bottom Navigation -->
+  <rect x="0" y="756" width="375" height="56" fill="hsl(200, 25%, 22%)" stroke="hsl(190, 25%, 32%)" stroke-width="1"/>
+  <text x="93.75" y="790" font-family="Heebo" font-size="12" fill="hsl(180, 10%, 65%)" text-anchor="middle">🏠</text>
+  <text x="187.5" y="790" font-family="Heebo" font-size="12" fill="hsl(180, 10%, 65%)" text-anchor="middle">📊</text>
+  <text x="281.25" y="790" font-family="Heebo" font-size="12" fill="hsl(180, 10%, 65%)" text-anchor="middle">📝</text>
+  <text x="375" y="790" font-family="Heebo" font-size="12" fill="hsl(180, 10%, 65%)" text-anchor="middle">⚙️</text>
+</svg>
+

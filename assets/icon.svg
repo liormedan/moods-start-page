@@ -1,0 +1,5 @@
+<svg width="80" height="80" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+  <rect width="80" height="80" rx="16" fill="hsl(175, 60%, 55%)"/>
+  <text x="40" y="55" font-family="Heebo" font-size="40" font-weight="700" fill="hsl(180, 10%, 98%)" text-anchor="middle">M</text>
+</svg>
+
